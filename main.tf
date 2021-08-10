@@ -1,8 +1,8 @@
 provider "aws" {
 	alias  = "prod"
 	region = "us-west-2"
-	access_key = "AKIAXFXVFGM5PRDSGBM6"
-        secret_key = "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"
+	access_key = "AK********************"
+        secret_key = "w*****************************************"
 }
 
 resource "aws_s3_bucket" "origin_pavan_me" {
